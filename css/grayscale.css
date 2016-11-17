@@ -8,7 +8,7 @@ body {
   height: 100%;
   font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: white;
-  background-color: black;
+  background-color: white ;
 }
 html {
   width: 100%;
@@ -156,6 +156,10 @@ a:focus {
 .menu{
  
   background-color: white;
+  background: url(../img/fondo.png) no-repeat; 
+  background-repeat:no-repeat;
+  background-position:right top;
+  background-color: white;
   color:black;
   width: 100%;
   height: auto;
@@ -231,9 +235,11 @@ a:focus {
 .download-section {
   width: 100%;
   padding: 50px 0;
-  color: white;
-  background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
-  background-color: black;
+  
+  height: auto;
+  color: black;
+ /* background: url(../img/downloads-bg.jpg) no-repeat center center scroll; */
+  background-color: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -246,10 +252,11 @@ a:focus {
 }
 @media (min-width: 767px) {
   .content-section {
-    padding-top: 250px;
+    padding-top: 110px;
   }
   .download-section {
     padding: 100px 0;
+    padding-bottom: 200px;
   }
   #map {
     height: 400px;
@@ -319,4 +326,19 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
+}
+
+
+.modal-title{
+  color: black;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.control-label{
+  color:black;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.form-control{
+ color:black;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; 
 }
