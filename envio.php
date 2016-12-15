@@ -1,9 +1,10 @@
 <?php
 require 'corr/PHPMailerAutoload.php';
-$de= $_POST['name'];
-$remitente=  $_POST['de_email'];
-$telefono=  $_POST['tel'];
-$mensaje=  $_POST['el_body'];
+$de= $_POST['txt_nombre'];
+$remitente=  $_POST['txt_correo'];
+$telefono=  $_POST['txt_tel'];
+$mensaje=  $_POST['txt_mensaje'];
+
 $mail = new PHPMailer;
 $mail->charSet = "UTF-8";
 //$mail->SMTPDebug = 3;                               // Enable verbose debug output
